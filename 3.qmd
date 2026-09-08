@@ -1,0 +1,22 @@
+
+---
+format: html
+author: ''
+date: 'September 9, 2026'
+toc: true
+number-sections: true
+---
+
+mathematicaly:<br>
+AI Model: $s_t \rightarrow a_t$
+
+environment: $(s_t,a_t) \rightarrow s_{t+1}$ <br>
+ Where:
+
+$(s_t)$: current sensor state<br>
+$(a_t)$: Robot action<br>
+$(s_{t+1})$: New sensor state
+
+For example:
+[0.80,0.25,1.00]→[−0.65,0.20]→[0.60,0.35,1.10]<br>
+The robot has turned left, so the next sensor measurements are different.

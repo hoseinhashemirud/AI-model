@@ -1,0 +1,32 @@
+---
+format: html
+author: ''
+date: 'September 9, 2026'
+toc: true
+number-sections: true
+---
+
+For example, The robot moves forward → approaches a wall → the distance sensor measures a smaller distance → the robot must change its action.
+
+## Agent ##
+The agent is the complete autonomous robot:
+<center>Agent<br>
+STM32 + RTOS + Sensors + AI + Motor Control<br>
+sensor task $\rightarrow$ AI inference task $\rightarrow$ decision task $\rightarrow$ motor control<br></center> 
+The RTOS coordinates these tasks, while the AI model helps determine the robot's action.
+Suppose the robot has three distance sensors:<br>
+<center>left=80cm, front=25cm, right=100cm <br>
+    ${x=[0.8, 0.25, 1.0]^T}$</center>
+The values are normalized before being given to the neural network.
+
+The model might produce:${y=[-0.65,0.2]^T}$
+Where:
+
+- Steering = −0.65: Turn left
+- Speed = 0.20: Move slowly<br>
+The robot then converts these outputs into motor commands.
+The model does not directly control the motors. It produces a decision that the control software interprets.<br>
+
+## The complete interaction loop ##
+
+<img src="Images1.png" alt="interaction loop" width="900" height="680">
