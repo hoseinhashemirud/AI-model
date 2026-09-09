@@ -1,6 +1,8 @@
-# MGSC6253 — Artificial Intelligence
-
-**Fall 2026**
+---
+title: "Syllabus"
+subtitle: "Fall 2026"
+number-sections: false
+---
 
 | | |
 |---|---|

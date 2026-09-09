@@ -3,7 +3,7 @@ project:
   output-dir: _site
 
 website:
-  title: "MGSC6253 — Artificial Intelligence"
+  title: "Artificial Intelligence"
   description: "Course site: an embedded AI agent for autonomous obstacle avoidance"
   page-navigation: true
   navbar:

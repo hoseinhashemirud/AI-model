@@ -1,4 +1,4 @@
-# MGSC6253 — Artificial Intelligence
+# Artificial Intelligence
 
 Course notes and materials, built as a [Quarto](https://quarto.org) website and published to GitHub Pages.
 

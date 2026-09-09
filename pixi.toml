@@ -1,6 +1,6 @@
 [workspace]
-name = "mgsc6253-ai"
-description = "MGSC6253 — Artificial Intelligence course site (Quarto)"
+name = "ai-course-site"
+description = "Artificial Intelligence course site (Quarto)"
 channels = ["conda-forge"]
 platforms = ["osx-arm64", "linux-64"]
 

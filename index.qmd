@@ -1,11 +1,11 @@
 ---
-title: "MGSC6253 — Artificial Intelligence"
+title: "Artificial Intelligence"
 subtitle: "An embedded AI agent for autonomous obstacle avoidance"
 toc: false
 number-sections: false
 ---
 
-This site collects the course notes and materials for **MGSC6253 — Artificial Intelligence** (Fall 2026).
+This site collects the course notes and materials for **Artificial Intelligence** (Fall 2026).
 
 The notes work through a single running example: a two-wheel autonomous robot that avoids obstacles using a small INT8-quantized neural network running directly on an STM32 microcontroller. The example is used to make the agent/environment distinction concrete — the network is the *model*, the robot is the *agent*, and the room is the *environment*.
 
