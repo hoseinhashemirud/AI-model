@@ -17,4 +17,4 @@ The notes work through a single running example: a two-wheel autonomous robot th
 
 ## Course
 
-- [Syllabus](docs/syllabus/index.md) — schedule, evaluation, and course policies.
+- [Syllabus](docs/syllabus/index.md) — description, objectives, topics, evaluation, and the week-by-week schedule.

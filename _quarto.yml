@@ -1,6 +1,11 @@
 project:
   type: website
   output-dir: _site
+  render:
+    - "**/*.qmd"
+    - "**/*.md"
+    # editorial notes, not course content — kept in the repo, not published
+    - "!docs/reviews/"
 
 website:
   title: "Artificial Intelligence"

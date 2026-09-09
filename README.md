@@ -16,11 +16,15 @@ notes/
   03-formal-model.qmd                    states, actions, transitions
 docs/syllabus/
   index.md                               course syllabus
+docs/reviews/                            editorial reviews (not published)
 images/                                  figures
 .github/workflows/publish.yml            render + deploy to GitHub Pages
 ```
 
 `_site/` (rendered output) and `.pixi/` (the environment) are git-ignored.
+
+`docs/reviews/` is excluded from the rendered site — it holds editorial notes on the
+course content, which are tracked in the repo but not published to students.
 
 ## Working locally
 
