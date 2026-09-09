@@ -4,14 +4,6 @@ subtitle: "Fall 2026"
 number-sections: false
 ---
 
-| | |
-|---|---|
-| Instructor | *(withheld)* |
-| E-mail | *(withheld)* |
-| Office | SSOB, Room SB-212 |
-| Lectures | T 5:30 p.m. – 8:00 p.m.<br>2026-09-09 – 2026-12-03<br>Marvin Harvey B1022 |
-| Office Hours | Monday 2:00 pm to 3:00 pm, by appointment |
-
 ## Course Description and Overview
 
 Artificial Intelligence (AI) is concerned with developing computer systems capable of performing tasks that humans typically carry out naturally and often unconsciously, such as learning, reasoning, problem-solving, perception, and understanding language. This introductory course provides students with a foundation in the core concepts, techniques, and methodologies of artificial intelligence and prepares them for more advanced study in specialized areas of AI. Topics will include fundamental AI approaches such as intelligent agents, search and problem-solving, knowledge representation, reasoning, and machine learning.
@@ -113,12 +105,6 @@ The course schedule is tentative and subject to change. Some adjustments may be 
 | Week 11 | Nov 24 | Natural Language Processing | Chap 10 | |
 | Week 12 | Dec 1 | | | Presentations |
 
-Lectures will be posted on Moodle. Remember that course videos and materials belong to your instructor and the University and are protected by copyright. You are permitted to download videos and materials for your own personal academic use, but you may not copy, share, or otherwise distribute them without explicit permission from the instructor.
-
-## Syllabus Subject to Change
-
-The standards and requirements set forth in this syllabus may be modified at any time by the course instructor. Notice of such changes will be by announcement in class, written or email notice, or by changes to this syllabus posted on Moodle.
-
 ## Labs
 
 The lab exercises are designed to help you grasp and apply the business analytics concepts discussed in the previous courses and prepare you for the projects, so the more you put into them, the more you get out of them.
@@ -139,46 +125,3 @@ The midterm consists of multiple-choice questions covering both the practical as
 - All projects should be neatly and **professionally** done.
 - **No extension** of the due date will be provided.
 - The penalty for **plagiarism** on projects is an assigned mark of **0 percent** on the project.
-
-## Accommodating Students
-
-Students requiring special accommodations, or students who have a conflict with the tests and exam schedules should inform the instructor at the beginning of the course.
-
-Students with disabilities are encouraged to meet with an Accessibility Facilitator at the University's accessibility centre to discuss services and equipment you may need and to help you apply for grants through your province.
-
-## Class Policy
-
-Please ensure that your cell phone does not disrupt the meetings. Cell phones, electronic translators, and similar devices are not allowed during exams. Students are expected to actively participate in all meetings with employers and come prepared for group project discussions. Additionally, make sure that all assignments and projects are submitted on or before their due dates.
-
-## Other Information
-
-- The data set used in the course belongs to the organization that provided it. Moreover, despite certain measures having been taken to remove/disguise the information about third parties (for example, customer names) the data still contains sensitive information about the company that provided it (for example, the overall performance, trends, etc.). Therefore, to access the data set, students will be required to sign a non-disclosure agreement.
-- Please remember that the recording of any meeting on a personal device requires the permission of the instructor and the employer.
-
-## Use of Technological Devices
-
-Student Use of Technological Devices in the Classroom: Refer to the University policy regarding use of technological devices in the classroom.
-
-## Policy on Lateness, Absence and Extensions
-
-Late assignments will generally not be accepted. In the case of a missed test, a mark of zero will be recorded. No make-up test will be provided. Only in exceptional circumstances will requests for extensions for assignment deadlines or excuses for missed tests be entertained. Any such request must be presented to the course instructor with all supporting documentation as soon as possible. The sole remedy available in exceptional circumstances for missed tests is redistribution of its weight to other components.
-
-Notes for reason of absence, e.g., doctor's note, from any of the evaluation items must be dated for the day of absence in order to be considered. Notes for reason of absence are due within one week after the absence date and will not be accepted at a later date.
-
-## Policy on Collaboration
-
-You may use the textbooks, notes, lectures, instructors, tutors and classmates to help you find general strategies to solve the problems, but using other people's work or solutions, whether cited or not, is considered plagiarism and carries stiff academic penalties. If you are unsure whether an activity may constitute plagiarism or undue collaboration, consult the instructor immediately.
-
-Refer to the University's plagiarism policy and regulations regarding other forms of academic dishonesty.
-
-## GenAI Use
-
-Inappropriate use of AI can be considered an academic integrity breach under the University's Academic Integrity Policy. To maintain academic integrity, you must disclose any AI-generated material you use and properly attribute it, including in-text citations, quotations, and references. Be aware that you are responsible for any errors or information that is misrepresented or inaccurate (i.e. hallucinations) that GenAI tools produce when submitting work that includes AI-generated material. Students should also include the following statement in their assignments to indicate use of a generative AI tool:
-
-> **"The author(s) acknowledges the use of [generative AI tool Name] in the preparation or completion of this assignment. The [generative AI tool Name] was used in the following way(s) in this assignment: [e.g., brainstorming, grammatical correction, citation, which portion of the assignment]."**
-
-To learn more about GenAI and your responsibilities as a student, you can explore the Moodle module *"Artificial Intelligence & Students"*.
-
-## Intellectual Property
-
-Refer to the University policy regarding Intellectual Property.
