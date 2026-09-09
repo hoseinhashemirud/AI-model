@@ -1,0 +1,43 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "MGSC6253 — Artificial Intelligence"
+  description: "Course site: an embedded AI agent for autonomous obstacle avoidance"
+  page-navigation: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - text: Notes
+        menu:
+          - notes/01-ai-model.qmd
+          - notes/02-agent-and-environment.qmd
+          - notes/03-formal-model.qmd
+      - href: docs/syllabus/MGSC6253-AI-F2026.md
+        text: Syllabus
+  sidebar:
+    style: docked
+    contents:
+      - href: index.qmd
+        text: Home
+      - section: "Notes"
+        contents:
+          - notes/01-ai-model.qmd
+          - notes/02-agent-and-environment.qmd
+          - notes/03-formal-model.qmd
+      - section: "Course"
+        contents:
+          - href: docs/syllabus/MGSC6253-AI-F2026.md
+            text: Syllabus
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    number-sections: true
+    html-math-method: mathjax
+
+author: ""
+date: "2026-09-09"

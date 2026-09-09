@@ -1,2 +1,41 @@
-# AI-model
+# MGSC6253 — Artificial Intelligence
 
+Course notes and materials, built as a [Quarto](https://quarto.org) website and published to GitHub Pages.
+
+The notes follow one running example: a two-wheel autonomous robot that avoids obstacles using a small INT8-quantized neural network running on an STM32 microcontroller.
+
+## Layout
+
+```
+pixi.toml / pixi.lock                    pinned toolchain (Quarto)
+_quarto.yml                              site config (nav, sidebar, theme)
+index.qmd                                landing page
+notes/
+  01-ai-model.qmd                        the network and the environment
+  02-agent-and-environment.qmd           sensors → inference → motor commands
+  03-formal-model.qmd                    states, actions, transitions
+docs/syllabus/
+  MGSC6253-AI-F2026.md                   course syllabus
+images/                                  figures
+.github/workflows/publish.yml            render + deploy to GitHub Pages
+```
+
+`_site/` (rendered output) and `.pixi/` (the environment) are git-ignored.
+
+## Working locally
+
+The only prerequisite is [pixi](https://pixi.sh) — it installs Quarto itself, pinned by `pixi.lock`, so nothing needs to be installed globally.
+
+```bash
+pixi run preview     # live-reloading local preview
+pixi run render      # build into _site/
+pixi run check       # verify the Quarto installation
+```
+
+The first command bootstraps the environment automatically. There are no executable code cells, so no R or Python runtime is required.
+
+## Publishing
+
+Pushing to `main` renders the site with the same pinned toolchain and deploys it via GitHub Actions.
+
+One-time setup: in **Settings → Pages**, set **Source** to **GitHub Actions**.

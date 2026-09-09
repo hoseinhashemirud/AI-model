@@ -1,0 +1,13 @@
+# Quarto
+/_site/
+/.quarto/
+*_files/
+*_cache/
+
+# pixi
+.pixi/
+
+# OS
+.DS_Store
+
+**/*.quarto_ipynb

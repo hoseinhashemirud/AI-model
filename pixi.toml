@@ -1,0 +1,13 @@
+[workspace]
+name = "mgsc6253-ai"
+description = "MGSC6253 — Artificial Intelligence course site (Quarto)"
+channels = ["conda-forge"]
+platforms = ["osx-arm64", "linux-64"]
+
+[tasks]
+preview = "quarto preview"
+render = "quarto render"
+check = "quarto check"
+
+[dependencies]
+quarto = ">=1.9.38,<2"
