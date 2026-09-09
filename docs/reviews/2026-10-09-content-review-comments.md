@@ -6,7 +6,7 @@ The motor commands would be: $u_s=0.7 , u_v=0.25$, as $v_l=u_v*(1+u_s)$ and $v_r
 
 ### C2
 **where** reviews/2026-09-09w-content-review.qmd/C2<br>
-the quantization rate is 1/200 and 1.1*200=220 cm that is outside the assumed 200 cm maximum.
+the quantization rate is $1/200$ and $1.1*200=220$ cm that is outside the assumed 200 cm maximum.
 $d_{normalized}=d_{measured}/200$, it is just supposed to show that when the robot is moving the sensor reading will be changed.  
 The corrected format is: $$[0.80,\ 0.25,\ 1.00] \rightarrow [-0.65,\ 0.20] \rightarrow [0.60,\ 0.35,\ 0.95]$$
 There is another thing here should be corrected:<br>
