@@ -1,0 +1,20 @@
+---
+title: "Formal model: states, actions, and transitions"
+---
+
+Mathematically:
+
+- AI Model: $s_t \rightarrow a_t$
+- Environment: $(s_t, a_t) \rightarrow s_{t+1}$
+
+Where:
+
+- $(s_t)$: current sensor state
+- $(a_t)$: Robot action
+- $(s_{t+1})$: New sensor state
+
+For example:
+
+$$[0.80,\ 0.25,\ 1.00] \rightarrow [-0.65,\ 0.20] \rightarrow [0.60,\ 0.35,\ 1.10]$$
+
+The robot has turned left, so the next sensor measurements are different.
