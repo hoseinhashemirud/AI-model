@@ -15,7 +15,7 @@ notes/
   02-agent-and-environment.qmd           sensors → inference → motor commands
   03-formal-model.qmd                    states, actions, transitions
 docs/syllabus/
-  MGSC6253-AI-F2026.md                   course syllabus
+  index.md                               course syllabus
 images/                                  figures
 .github/workflows/publish.yml            render + deploy to GitHub Pages
 ```

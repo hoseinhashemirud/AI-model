@@ -15,7 +15,7 @@ website:
           - notes/01-ai-model.qmd
           - notes/02-agent-and-environment.qmd
           - notes/03-formal-model.qmd
-      - href: docs/syllabus/MGSC6253-AI-F2026.md
+      - href: docs/syllabus/index.md
         text: Syllabus
   sidebar:
     style: docked
@@ -29,7 +29,7 @@ website:
           - notes/03-formal-model.qmd
       - section: "Course"
         contents:
-          - href: docs/syllabus/MGSC6253-AI-F2026.md
+          - href: docs/syllabus/index.md
             text: Syllabus
 
 format:
