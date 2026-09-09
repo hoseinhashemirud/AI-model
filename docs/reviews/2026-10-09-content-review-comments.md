@@ -1,6 +1,6 @@
 ### C1
 **where** reviews/2026-09-09w-content-review.qmd/C1 <br>
-the quantization is 1/200 not 1/100. the state would be $x=[0.4,\ 0.125,\ 0.5]^T$ rather than $x=[0.8,\ 0.25,\ 1.0]^T$ so the $y=[+0.7,0.25]^T$ --> and it should turn to the right. 
+the quantization is 1/200 not 1/100. the state would be $x=[0.4,\ 0.125,\ 0.5]^T$ rather than $x=[0.8,\ 0.25,\ 1.0]^T$ so the $y=[+0.7,0.25]^T$ $rightarrow$ and it should turn to the right. 
 The motor commands would be: $u_s=0.7 , u_v=0.25$, as $v_l=u_v*(1+u_s)$ and $v_r=u_v*(1-u_s)$ --> $v_l=0.425,v_r=0.075$ --> left motor 42.5% and right motor 7.5% is on and the robot turns right. It means the push on the right wheel is less.<br>
 **status**: should be corrected and added formulas of speed of right and left motor.
 
