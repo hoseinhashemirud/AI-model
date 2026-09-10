@@ -12,7 +12,7 @@ The corrected format is: $$[0.80,\ 0.25,\ 1.00] \rightarrow [-0.65,\ 0.20] \righ
 There is another thing here should be corrected:<br>
 - AI Model: $s_t \rightarrow a_t$<br>
 - Environment: $(s_t, a_t) \rightarrow s_{t+1}$ <br>
-  $s_{t+1}=f_{environment}(s_t, a_t)$<br>
+$s_{t+1}=f_{environment}(s_t, a_t)$<br>
 **status**: should be corrected the number and formula.
 
 ### C3
