@@ -21,7 +21,7 @@ images/                                  figures
 .github/workflows/publish.yml            render + deploy to GitHub Pages
 ```
 
-`_site/` (rendered output) and `.pixi/` (the environment) are git-ignored.
+`_site/` (rendered output), `.quarto/` (Quarto cache), and `.pixi/` (the environment) are git-ignored.
 
 `docs/reviews/` is excluded from the rendered site — it holds editorial notes on the
 course content, which are tracked in the repo but not published to students.
