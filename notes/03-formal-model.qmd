@@ -9,9 +9,9 @@ Mathematically:
 
 Where:
 
-- $(s_t)$: current sensor state
-- $(a_t)$: Robot action
-- $(s_{t+1})$: New sensor state
+- $s_t$: current sensor state
+- $a_t$: Robot action
+- $s_{t+1}$: New sensor state
 
 For example:
 
