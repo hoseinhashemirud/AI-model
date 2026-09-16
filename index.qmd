@@ -1,0 +1,20 @@
+---
+title: "Artificial Intelligence"
+subtitle: "An embedded AI agent for autonomous obstacle avoidance"
+toc: false
+number-sections: false
+---
+
+This site collects the course notes and materials for **Artificial Intelligence** (Fall 2026).
+
+The notes work through a single running example: a two-wheel autonomous robot that avoids obstacles using a small INT8-quantized neural network running directly on an STM32 microcontroller. The example is used to make the agent/environment distinction concrete — the network is the *model*, the robot is the *agent*, and the room is the *environment*.
+
+## Notes
+
+1. [A small INT8 neural network for autonomous obstacle avoidance](notes/01-ai-model.qmd) — the application, the `3 → 16 → 8 → 2` network, and the environment it acts in.
+2. [The agent: from sensors to motor commands](notes/02-agent-and-environment.qmd) — the RTOS task chain, a worked sensor-to-actuator example, and the interaction loop.
+3. [Formal model: states, actions, and transitions](notes/03-formal-model.qmd) — the state/action notation behind the loop.
+
+## Course
+
+- [Syllabus](docs/syllabus/index.md) — description, objectives, topics, evaluation, and the week-by-week schedule.

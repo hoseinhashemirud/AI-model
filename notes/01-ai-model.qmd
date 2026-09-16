@@ -1,0 +1,40 @@
+---
+title: "A small INT8 neural network for autonomous obstacle avoidance"
+---
+
+## AI Model
+
+It is a realistic example of an AI agent running directly on a microcontroller.
+
+Application: A two-wheel autonomous robot that moves through a room and avoids obstacles.
+
+AI model: A small fully connected neural network (MLP) that receives distance measurements and predicts the safest movement direction.
+
+A practical starting architecture could be:
+
+$$\boxed{3\rightarrow 16 \rightarrow 8 \rightarrow 2}$$
+
+- 3 inputs: Left, front, and right distance measurements
+- 16 neurons: First hidden layer
+- 8 neurons: Second hidden layer
+- 2 outputs: Steering and speed
+
+The model would be trained on a computer, then quantized to INT8 and deployed to the STM32 using STM32Cube.AI.
+
+## The agent and environment
+
+The neural network is the decision-making model; the agent is the complete robot system that uses the model.
+
+The environment is the physical world surrounding the robot. In this specific AI model:
+
+- Walls
+- Tables
+- Chairs
+- People
+- Other obstacles
+- Floor surface
+- Battery and motor conditions
+
+The environment changes when the robot moves.
+
+![A two-wheel autonomous robot](../images/two-wheel-robot.jpeg){#fig-robot fig-alt="Two-wheel robot"}
