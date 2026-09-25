@@ -17,9 +17,9 @@ website:
         text: Home
       - text: Notes
         menu:
-          - notes/01-ai-model.qmd
-          - notes/02-agent-and-environment.qmd
-          - notes/03-formal-model.qmd
+          - stm32-aor-agent.qmd
+          - 
+          - 
       - href: docs/syllabus/index.md
         text: Syllabus
   sidebar:
@@ -29,9 +29,9 @@ website:
         text: Home
       - section: "Notes"
         contents:
-          - notes/01-ai-model.qmd
-          - notes/02-agent-and-environment.qmd
-          - notes/03-formal-model.qmd
+          - stm32-aor-agent.qmd
+          - 
+          - 
       - section: "Course"
         contents:
           - href: docs/syllabus/index.md
