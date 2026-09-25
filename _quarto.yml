@@ -28,8 +28,6 @@ website:
       - section: "Notes"
         contents:
           - stm32-aor-agent.qmd
-          - 
-          - 
       - section: "Course"
         contents:
           - href: docs/syllabus/index.md
