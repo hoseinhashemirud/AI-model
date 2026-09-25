@@ -43,18 +43,22 @@ jobs:
           echo "=== Files ==="
           find . -maxdepth 2 -type f | sort
 
+      
       - name: Render site
         run: |
           set +e
 
-          echo "=== Running Quarto render ==="
-
           pixi run render > render.log 2>&1
           STATUS=$?
 
+          echo ""
+          echo "========================================"
+          echo "        QUARTO RENDER OUTPUT"
+          echo "========================================"
           cat render.log
-
-          echo "=== Render exit status: $STATUS ==="
+          echo "========================================"
+          echo "Render exit status: $STATUS"
+          echo "========================================"
 
           exit $STATUS
 
