@@ -29,46 +29,21 @@ jobs:
         with:
           cache: true
 
-      - name: Check environment
+      - name: Verify environment
         run: |
-          echo "=== Pixi ==="
           pixi --version
-
-          echo "=== Quarto ==="
           pixi run quarto --version
-
-          echo "=== Repository ==="
           git status --short
 
-          echo "=== Files ==="
-          find . -maxdepth 2 -type f | sort
-
-      
       - name: Render site
         run: |
-          set +e
+          pixi run render
 
-          pixi run render > render.log 2>&1
-          STATUS=$?
-
-          echo ""
-          echo "========================================"
-          echo "        QUARTO RENDER OUTPUT"
-          echo "========================================"
-          cat render.log
-          echo "========================================"
-          echo "Render exit status: $STATUS"
-          echo "========================================"
-
-          exit $STATUS
-
-      - name: Upload render diagnostics
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: quarto-render-log
-          path: render.log
-          if-no-files-found: warn
+      - name: Verify generated site
+        run: |
+          test -f _site/index.html
+          echo "Quarto site generated successfully."
+          find _site -maxdepth 2 -type f | head -50
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
