@@ -18,8 +18,6 @@ website:
       - text: Notes
         menu:
           - stm32-aor-agent.qmd
-          - 
-          - 
       - href: docs/syllabus/index.md
         text: Syllabus
   sidebar:
