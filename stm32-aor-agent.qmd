@@ -3173,7 +3173,7 @@ plt.show()
 
 ## A frame of movement ##
 
-![STM32-AOR autonomous obstacle avoidance robot in a real challenge](~/imagescopy/stm32_aor_romi_physics_3d_v10.gif){#fig-anim width=100%}
+![STM32-AOR autonomous obstacle avoidance robot in a real challenge](./imagescopy/stm32_aor_romi_physics_3d_v10.gif){#fig-anim width=100%}
 
 
 
