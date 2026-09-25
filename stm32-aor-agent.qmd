@@ -31,7 +31,7 @@ This architecture shown in @fig-NNMLP is physically interpretable and suitable a
 
 The model is trained on a computer and can then be deployed to the STM32 using ST's AI deployment tools.
 
-### Concrete Robot Definition
+## Concrete Robot Definition
 
 To generate a physically meaningful dataset, the robot must first be defined. The custom robot has the properties shown in @tbl-Parameters.
 
@@ -69,7 +69,7 @@ This output representation is preferable because both variables have a direct **
 
 First, a reference controller is created. This controller is **not an AI model**, it is defined using the control system theory.Here, It is used to generate physically meaningful **training labels** for the AI agent.
 
-### Desired Linear Velocity
+## Desired Linear Velocity
 
 
 A relation between $d_f$ and $v_d$ should be considered practically.
@@ -97,7 +97,7 @@ Thus:
 - **Obstacle moderately close:** slow down
 - **Obstacle far away:** move at up to 0.40 m/s
 
-### Desired Angular Velocity
+## Desired Angular Velocity
 
 We can define the desired angular velocity from the difference between left and right distances: 
 
@@ -183,7 +183,7 @@ followed by saturation.
 
 This increases the turning response as the front obstacle becomes closer. The additional controller terms should be parameterized and experimentally validated before they are used to generate the final dataset.
 
-### Differential-Drive Kinematics
+## Differential-Drive Kinematics
 
 The desired robot motion must be converted into actual left- and right-wheel velocities.
 
@@ -235,7 +235,7 @@ $$
 
 These constraints must be checked when generating the training labels.
 
-### Example Training Sample
+## Example Training Sample
 
 Suppose the sensors measure:
 
