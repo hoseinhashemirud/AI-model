@@ -27,8 +27,15 @@ jobs:
         with:
           cache: true
 
+      - name: Check Pixi and Quarto
+        run: |
+          pixi --version
+          pixi info
+          pixi run quarto --version
+
       - name: Render site
-        run: pixi run render
+        run: |
+          pixi run render
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
