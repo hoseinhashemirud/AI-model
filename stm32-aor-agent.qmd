@@ -2,7 +2,7 @@
 title: "A Small MLP Neural Network for Autonomous Obstacle Avoidance Robot"
 ---
 
-## AI Model
+# AI Model
 
 A realistic example of an AI agent running directly on a microcontroller is considered here.
 
