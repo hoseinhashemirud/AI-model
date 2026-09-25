@@ -11,9 +11,9 @@ The notes work through a single running example: a two-wheel autonomous robot th
 
 ## Notes
 
-1. [A small INT8 neural network for autonomous obstacle avoidance](notes/01-ai-model.qmd) — the application, the `3 → 16 → 8 → 2` network, and the environment it acts in.
-2. [The agent: from sensors to motor commands](notes/02-agent-and-environment.qmd) — the RTOS task chain, a worked sensor-to-actuator example, and the interaction loop.
-3. [Formal model: states, actions, and transitions](notes/03-formal-model.qmd) — the state/action notation behind the loop.
+1. [A small INT8 neural network for autonomous obstacle avoidance](stm32-aor-agent.qmd) — the application, the `3 → 16 → 8 → 2` network, and the environment it acts in.
+2. [The agent: from sensors to motor commands]() — the RTOS task chain, a worked sensor-to-actuator example, and the interaction loop.
+3. [Formal model: states, actions, and transitions]() — the state/action notation behind the loop.
 
 ## Course
 
